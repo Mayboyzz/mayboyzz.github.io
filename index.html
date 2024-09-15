@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/118f2861ff.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="./styles/main.css" />
 		<title>Christian May | Portfolio</title>
 	</head>
@@ -13,16 +17,29 @@
 					<a href="#">Home</a>
 					<a href="/pages/projects.html">Projects</a>
 				</div>
+
+				<div class="button-dropdown">
+					<div class="dropdown-content">
+						<a class="dropdown-link" href="#">Projects</a>
+						<a class="dropdown-link" href="#">Socials</a>
+					</div>
+				</div>
+
 				<div class="right-bar">
-					<a href="/pages/socials.html">Socials</a>
+					<a href="/pages/socials.html">Socials</a
+					><button><i class="fa-solid fa-bars"></i></button>
 				</div>
 			</div>
-			<div class="personal-image">
-				<img src="./assets/IMG_3246.jpg" width="400px" height="400px" />
+			<div class="personal-info">
+				<div class="personal-image">
+					<img src="./assets/IMG_3246.jpg" width="400px" height="400px" />
+				</div>
+				<div class="about-me">
+					<h1 class="name">Christian May</h1>
+					<h2 class="title">Software Engineer</h2>
+				</div>
 			</div>
-			<div class="about-me">
-				My name is Christian May, and I am a Software Engineer!
-			</div>
+
 			<div class="skills-list">
 				<span>Skills</span>
 				<ul>
@@ -51,4 +68,5 @@
 			</div>
 		</div>
 	</body>
+	<script src="/index.js"></script>
 </html>
